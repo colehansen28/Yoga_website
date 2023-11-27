@@ -1,0 +1,122 @@
+
+:root{
+    --text-pimary: white;
+    --text-secondary:gray;
+    --pages-header:rgb(56, 56, 59);
+}
+
+a{
+
+    transition: all 100ms ease;
+}
+
+a:hover{
+    transform: scale(1.05);
+    transition: all 100ms ease;
+}
+
+.hero{
+    background-image: url(Images/frontpageimage.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70svh;
+}
+
+.class-1{
+    background-image:url(Images/option1Image.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 55svh;
+}
+.class-2{
+    background-image: url(Images/option2image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55svh;
+}
+
+.class-text{
+    max-width: 450px;
+}
+
+.signup{
+    background-image: url(Images/contact-image.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 100svh;
+}
+
+.navigation-btn{
+    padding: .5rem;
+}
+
+button{
+    border: none;
+    padding: 1.25rem 1.75rem;
+    transition: all 200ms ease;
+
+}
+
+button:hover{
+    transform: scale(1.01)
+}
+
+
+/*Classes*/
+
+.pagesHeader{
+    background: var(--pages-header);
+}
+
+.classImage1{
+    background-image: url(Images/classes-1.jpeg);
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.classImage2{
+    background-image: url(Images/classes-2.jpeg);
+    background-position: 0px -30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.classImage3{
+    background-image: url(Images/classes-3.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.bookClassCTA{
+    max-width: 600px;
+}
+
+.bookClassCTA button{
+    max-width: 250px;
+}
+
+#inline-picker{
+    max-width: 500px;
+    margin: 0em auto 0em auto;
+}
+
+.BAC-Container{
+    align-items: center;
+}
+
+.classOption button{
+   padding: .5rem .75rem;
+   background: black;
+   color: white;
+
+}
+
+
+
+
+
+
+
